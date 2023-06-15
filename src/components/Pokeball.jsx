@@ -8,7 +8,9 @@ const Pokeball = ({ className, ...props }) => {
 				style={{
 					height: props.size ?? "8rem",
 				}}
-				className={` ${!props.animation ? "animate-spin" : "animate-bounce"} ${className ?? ""} max-sm:h-20`}
+				className={` ${!props.animation ? "animate-spin" : "animate-bounce"} ${className ?? ""} max-sm:h-20 ${
+					props.margin === "sm" ? "mt-16" : "mt-24"
+				}`}
 			/>
 		</div>
 	);

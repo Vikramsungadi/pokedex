@@ -113,7 +113,7 @@ const PokemonsList = () => {
 									/>
 								);
 						})}
-					{isFetching && <Pokeball className='mt-16' />}
+					{isFetching && <Pokeball margin='sm' />}
 				</div>
 			)}
 			{!isFetching && !loading && category !== "pokemon" && <h4 className='mb-6 mt-16 text-center  font-pokemon text-5xl '>Reached End</h4>}
