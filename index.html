@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<meta name="description" content="pokemons details" />
+
+		<title>Pokémon Database - Explore Pokémon Species, Abilities, and Types</title>
+		<meta
+			name="description"
+			content="Discover a comprehensive Pokémon database featuring detailed information on Pokémon species, abilities, types, and more. Explore the vast world of Pokémon and enhance your knowledge." />
+		<meta name="keywords" content="Pokémon, Pokémon database, Pokémon species, Pokémon abilities, Pokémon types" />
+		<meta property="og:title" content="Pokémon Database - Explore Pokémon Species, Abilities, and Types" />
+		<meta
+			property="og:description"
+			content="Discover a comprehensive Pokémon database featuring detailed information on Pokémon species, abilities, types, and more. Explore the vast world of Pokémon and enhance your knowledge." />
+		<meta property="og:image" content="/og-image.png" />
+		<!-- <meta property="og:url" content="https://www.yourwebsite.com/pokemon-database" /> -->
+
+		<title>Pokedex</title>
+	</head>
+	<body
+		class="relative -z-10 overflow-x-hidden bg-[var(--bg-color)] transition-colors before:absolute before:inset-0 before:z-10 before:min-h-screen before:w-full before:bg-white/60 before:backdrop-brightness-150">
+		<div id="root" class="relative z-50 h-full w-full"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
 </html>
